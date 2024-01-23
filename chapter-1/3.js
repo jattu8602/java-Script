@@ -19,11 +19,22 @@ let - Variable cannot be re-declared but can be updated . A block scope variable
 
 const - Variable cannot be re-declared or updated. A block scope variable.
 */
+
+
+// let 
 let name = "jattu";
 let age  = 45;
 age = 56;
 console.log(name);
 console.log(age);
+{
+    let a = 5;
+    console.log(a);
+}
+{
+    let a = 6;
+    console.log(a);
+}//these are called blocks
 
 
 // var 
