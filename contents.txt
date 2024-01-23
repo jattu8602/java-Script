@@ -1,0 +1,14 @@
+chapters---------------------->
+*)  variables and data types
+*)  operators and conditional statements
+*)  loops and string
+*)  arrays
+*)  functions
+*)  DOM PART-1
+*)  DOM PART-2
+*)  events in js
+*)  building game stone paper scissors
+*)  classes and objects
+*)  callback, promises and async-await
+*)  Fetch api
+*)  currency convertor app
