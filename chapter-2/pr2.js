@@ -7,6 +7,7 @@ write a code which can give grades to students according to their scores:
 0-49 F;
 
 */
+
 alert("welcome");
 a = prompt("enter your percentage (1-100%):-")
 if (90<=a && a<=100 ){
@@ -19,8 +20,6 @@ if (90<=a && a<=100 ){
     alert("You got D grade . Best wishes for next exam  ");
 }else if (0<=a && a<50){
     alert("You got F grade . Sorry but you are fail, Better luck for next time");
-
 }else{
-
     alert("Enter valid number !");
 }
