@@ -5,10 +5,15 @@ let items= [250,645,300,900,50];
 console.log(items);
 console.log("total number of items are");
 console.log(items.length);
+let i = 0;
+for(let val of items){
+    console.log('value at index',i+1, "=" ,val);
+    let offer = val/10;
+    items[i] = items[i]-offer;
+    i++;
 
-console.log("after final 10 % discount in all the products the pricing will be");
-for(i= 0;i<5;i++){
-    let offer = (items[i]*9)/10;
+
 }
-console.log(offer);
+console.log("new offer price is:-");
+console.log(items);
 
