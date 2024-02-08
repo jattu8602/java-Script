@@ -11,7 +11,7 @@
 // function functionName(param1.param2...){
     //do some work
 // }
-function myFunction(){
+function myFunction(){//parameter ->input
     console.log("welcome to apna College");
     console.log("we are learning JS");
     console.log("welcome to apna College");
