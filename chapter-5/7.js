@@ -19,3 +19,9 @@ let val = arrowMul(3,4);
 let val2 = arrowSum(3,4);
 console.log(val);
 console.log(val2);
+
+
+//calling
+const printHello  = ()=>{
+    console.log("hello");
+}
