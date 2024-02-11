@@ -15,6 +15,8 @@
 // <style> tag connects HTML with CSS
 // <script> tag connects HTML with JS
 
+alert("hello")//website will wait until execution
+
 
 
 
