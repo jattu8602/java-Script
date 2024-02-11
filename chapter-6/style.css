@@ -1,5 +1,9 @@
-h1{
+/* h1{
     color :blue;
+    background-color: blanchedalmond;
+} */
+#heading{
+    color: blue;
     background-color: blanchedalmond;
 }
 body{
