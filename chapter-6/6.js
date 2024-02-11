@@ -14,8 +14,10 @@ console.log(headings);//returns html collection
 
 //selecting with tag
 // document.getElementsByTagName("p");
-let elements = document.getElementsByTagName("p");
+let elements = document.getElementsByTagName("p");//
 console.log(elements);
+
+       
 
 
 
