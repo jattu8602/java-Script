@@ -8,6 +8,7 @@
 // }
 
 //Modern javaScript
+
 const arrowSum = (a,b)=>{
     console.log(a+b);
 };
@@ -25,3 +26,12 @@ console.log(val2);
 const printHello  = ()=>{
     console.log("hello");
 }
+
+
+
+
+
+
+
+
+
