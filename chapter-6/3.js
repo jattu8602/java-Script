@@ -9,7 +9,11 @@ window.console.log("hello2");
 
 window.alert("jaitn bhou kese ho");
 
-
+// window
+// window.document
+// console.dir(window.document)
+// console.log(window.document)
+//
 
 
 
