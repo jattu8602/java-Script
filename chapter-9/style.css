@@ -10,10 +10,10 @@ body{
 header{
     background-color: white;
     padding: 20px;
-
-
-
 }
+
+
+
 header > h1{
     color: #25272E;
     text-align: center;
@@ -89,7 +89,7 @@ header > h1{
 }
 .choice:hover {
     cursor: pointer;
-    background-color: red;
+    background-color: #292C34;
 
 
 }
@@ -103,6 +103,17 @@ header > h1{
 
 }
 
-
+.green-glow{
+    border: 5px solid #099c41;
+    box-shadow: 0 0 20px #219629;
+}
+.red-glow{
+    border: 5px solid #d00910;
+    box-shadow: 0 0 20px #d01115;
+}
+.gray-glow{
+    border: 5px solid #464647;
+    box-shadow: 0 0 20px #25292b;
+}
 
 
