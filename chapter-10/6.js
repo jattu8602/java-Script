@@ -1,4 +1,5 @@
 //            INHERITANCE IN JS
+
 // Ineritance is passing down properties & methods form parent class to child class.
                                     // class Parent{
 
@@ -14,15 +15,22 @@
 {
     console.log("hello");
 }
+
+
+
+
                                     }
                                     class Child extends Parent{
 
 
+
+
+
                                     }
+
+
+
+
+
+
 let obj = Child();
-
-
-
-
-
-
