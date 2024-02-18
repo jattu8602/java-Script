@@ -9,14 +9,17 @@
 
 ///  * If Child & Parent have same method , child's method will be used .[Method Overriding]
 
-start(){
-    console.log("This is a start function.");
+        class Parent{
+            hello()
+{
+    console.log("hello");
 }
-stop(){
-    console.log("This is a stop function.");
-}
+                                    }
+                                    class Child extends Parent{
 
 
+                                    }
+let obj = Child();
 
 
 
