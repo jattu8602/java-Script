@@ -5,4 +5,6 @@
 
 
 // Asynchronous
-// Due to synchronous programming , sometimes imp instructions get blocked due to some previous
+// Due to synchronous programming , sometimes imp instructions get blocked due to some previous instructions , which causes a delay in the UI. Asynchronous code execution allows to execution allows to execute next instructions immediateley and doesn't block the flow.
+
+
