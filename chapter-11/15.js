@@ -16,18 +16,57 @@ function asyncFunc2(){
 };
 
 // this is not a convenient way to do such complex linear work so we can apply then after then function in code 15.js
+
+
+
+
+
+
+
+// console.log("fetching data1.........");
+// let p1 = asyncFunc1();
+// p1.then((res)=>{
+//     console.log(res);
+//     console.log("fetching data2.........");
+//     let p2 = asyncFunc2();
+// p2.then((res)=>{
+//     console.log(res);
+// });
+
+
+// });
+
 console.log("fetching data1.........");
-let p1 = asyncFunc1();
-p1.then((res)=>{
-    console.log(res);
-    console.log("fetching data2.........");
-    let p2 = asyncFunc2();
-p2.then((res)=>{
-    console.log(res);
-});
+asyncFunc1().then((res)=>{
+console.log("fetching data2.........");
+   asyncFunc2().then((res)=>{});
 
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // console.log("fetching data2.........");
 // let p2 = asyncFunc2();
 // p2.then((res)=>{
