@@ -19,7 +19,8 @@
 // 3.rejected
 let promise = new Promise((resolve,reject)=>{
     console.log("I am a Promise.");
-})
+    resolve("some error occured");
+});
 
 
 
