@@ -1,3 +1,19 @@
+//   IIFE : immediately invoked function expression
+
+// iife is a function that is called immediateley as soon as it is defined
+
+// (function (){
+//     //......
+// })();
+
+// (()=>{
+//     //..........
+// })();
+
+// (async ()=>{
+//     //..........
+// })();
+
 function getData(dataId){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
@@ -10,7 +26,7 @@ function getData(dataId){
 
 
 // Async- await
-async function getAllData(){
+(async function (){
     console.log("getting data 1..............");
     await getData(1);
     console.log("getting data 2..............");
@@ -25,4 +41,4 @@ async function getAllData(){
     await getData(6);
 
 
-}
+})();
