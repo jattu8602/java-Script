@@ -20,17 +20,11 @@
 
 
                                     }
-                                    class Child extends Parent{
+ class Child extends Parent{} 
+let object = new Child();
 
 
 
 
 
-                                    }
-
-
-
-
-
-
-let obj = Child();
+let obj = new Child();
