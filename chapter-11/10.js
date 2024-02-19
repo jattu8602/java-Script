@@ -13,8 +13,13 @@
 
 // resolve & reject are callbacks provided by JS
 
-
-
+//There are three states :--
+// 1.pending
+// 2.fulfiled(resolved)
+// 3.rejected
+let promise = new Promise((resolve,reject)=>{
+    console.log("I am a Promise.");
+})
 
 
 
